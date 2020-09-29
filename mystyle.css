@@ -1,0 +1,140 @@
+/* FONTS*********/
+
+@font-face {
+  font-family: CourierPrime;
+  src: url(fonts/CourierPrime-Bold.ttf);
+}
+@font-face {
+  font-family: CourierPrime;
+  src: url(fonts/CourierPrime-Regular.ttf);
+}
+
+/**/
+
+body{
+  display: flex;
+  justify-content: center;
+  background: white;
+}
+
+#slider{
+  overflow: hidden;
+  justify-content: center;
+
+}
+#slider figure{
+  position: relative;
+  width: 500%;
+  margin: auto 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+#slider figure img{
+  width: 20%;
+  float: left;
+}
+@keyframes slider {
+  0%{
+    left: 0;
+  }
+  20%{
+    left: 0;
+  }
+  25%{
+    left: -100%;
+  }
+  45%{
+    left: -100%;
+  }
+  50%{
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95%{
+  left: -300%;
+}
+100{
+  left: -400%;
+}
+
+}
+
+
+#container{
+position: relative;
+top: 100px;
+width: 500px;
+}
+
+#Base-image{
+display: flex;
+justify-content: center;
+}
+
+#Base-image img{
+  width: 50px;
+  height: 50px;
+}
+
+#linking{
+  justify-content: center;
+}
+
+#content-box1{
+  background: url("Untitled_Artwork.png");
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 6px 6px 3px rgb(0, 0, 0, .05);
+}
+#content-box2{
+  background: url("TheDailyBoard__Zoom_2.png");
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 6px 6px 3px rgb(0, 0, 0, .05);
+}#content-box3{
+  background: url("Mockup_2.png");
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 6px 6px 3px rgb(0, 0, 0, .05);
+}#content-box4{
+  background: url("Mockup_3.png");
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 6px 6px 3px rgb(0, 0, 0, .05);
+}#content-box5{
+  background: url("Mockup.png");
+  padding: 15px;
+  margin-bottom: 50px;
+  box-shadow: 6px 6px 3px rgb(0, 0, 0, .05);
+}#content-box6{
+  background: white
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 6px 6px 3px rgb(0, 0, 0, .05);
+}
+
+ul{
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  background: #fae5e4;
+  padding: 15px;
+  color: black;
+}
+
+
+a:hover{
+  background: #FF9EA0;
+}
