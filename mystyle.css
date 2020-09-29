@@ -14,7 +14,13 @@
 body{
   display: flex;
   justify-content: center;
-  background: white;
+    background: repeating-linear-gradient(
+25deg,
+  #fff8f8,
+  #fff8f8 10px,
+  #ffffff 10px,
+  #ffff 20px
+);
 }
 
 #slider{
